@@ -1,109 +1,89 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tyler Huynh | Aspiring Data Analyst</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Tyler Huynh</h1>
-      <p class="tagline">Aspiring Data Analyst</p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/tyler-tri-huynh" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/tyler.trii" target="_blank">Instagram</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="about">
-      <div class="container">
-        <h2>Welcome</h2>
-        <p>This is the beginning of my personal portfolio. I'm passionate about using data to solve problems and uncover insights. Stay tuned as I build out more of my story, projects, and experience.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Tyler Huynh</p>
-    </div>
-  </footer>
-
+  <title>Tyler Huynh - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Share Tech Mono', monospace;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
       background-color: #0f0f0f;
       color: #e0e0e0;
       line-height: 1.6;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
       padding: 2rem;
     }
 
     header {
-      background-color: #1a1a1a;
       text-align: center;
-      padding: 4rem 2rem;
-      border-bottom: 1px solid #333;
+      margin-bottom: 4rem;
     }
 
     h1 {
       font-size: 3rem;
+      font-weight: 800;
+      color: #00f7ff;
       margin-bottom: 0.5rem;
     }
 
-    .tagline {
-      font-size: 1.25rem;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
       color: #a0a0a0;
     }
 
-    .social-links a {
-      color: #00ffc8;
-      margin: 0 0.75rem;
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .links a {
+      color: #00f7ff;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      transition: color 0.3s ease;
     }
 
-    .social-links a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      background-color: #121212;
-      padding: 4rem 2rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      color: #00ffc8;
-      margin-bottom: 1rem;
+    .links a:hover {
+      color: #00cfcf;
     }
 
     footer {
-      background-color: #1a1a1a;
       text-align: center;
-      padding: 2rem;
-      border-top: 1px solid #333;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-      h2 {
-        font-size: 1.5rem;
-      }
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #555;
     }
   </style>
+</head>
+<body>
+  <header>
+    <h1>Tyler Huynh</h1>
+    <h2>Aspiring Data Analyst</h2>
+  </header>
+
+  <section>
+    <!-- Add about/projects/resume/etc later -->
+    <div class="links">
+      <a href="https://www.linkedin.com/in/tyler-tri-huynh" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/tyler.trii" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Tyler Huynh. All rights reserved.
+  </footer>
 </body>
 </html>
